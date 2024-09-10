@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hero-section{
+    background-color: darkblue;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+.nav-items>a{
+    text-decoration: none;
+    margin-left: 15px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    cursor: pointer;
+}
+.nav-items>button{
+    padding: 10px 20x;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    margin-left: 15px;
+}
+.logo{
+    color: #fff;
+}
+
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(Pictures/hero-image.png);
+    background-size: cover;
+    background-position: center;
+}
+.home .content{
+    max-width: 60rem;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+}
+.home .content h2{
+    font-size: 3rem;
+    color: white;
+}
+.home p{
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 1rem 0;
+    color: white;
+    line-height: 2;
+    display: flex;
+}
+.home button{
+    background-color: darkblue;
+    outline: none;
+    cursor: pointer;
+    padding: 1rem;
+    color: white;
+    font-weight: 400;
+    border: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
